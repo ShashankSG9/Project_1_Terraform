@@ -39,7 +39,7 @@ variable "acl" {
 variable "bucket_prefix" {
     type        = string
     description = "(required since we are not using 'bucket') Creates a unique bucket name beginning with the specified prefix"
-    default     = "my-s3bucket-terraform-7-by-jenkins-pipeline"
+    default     = "ap-south-1-terraform-7-jenkins"
 }
 variable "tags" {
     type        = map
